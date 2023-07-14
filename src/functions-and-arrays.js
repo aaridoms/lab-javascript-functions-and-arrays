@@ -29,7 +29,7 @@ function findLongestWord(wordsArr) {
   for(let i = 0; i < wordsArr.length; i++) {
 
     if (wordsArr[i].length > longestWord.length) {
-      return longestWord = wordsArr[i]
+      longestWord = wordsArr[i]
       // console.log(longestWord);
     } 
   }
